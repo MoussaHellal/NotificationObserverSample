@@ -15,5 +15,7 @@ class FoodController: UIViewController {
     }
     
     @IBAction func addImaginaryFood(_ sender: UIButton) {
+        //Push Notification
+        NotificationCenter.default.post(name: addItemNotfication, object: nil,userInfo: nil)
     }
 }

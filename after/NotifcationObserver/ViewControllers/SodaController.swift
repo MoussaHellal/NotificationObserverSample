@@ -15,5 +15,7 @@ class SodaController: UIViewController {
     }
 
     @IBAction func addImaginarySoda(_ sender: UIButton) {
+        //Push Notification
+        NotificationCenter.default.post(name: addItemNotfication, object: nil,userInfo: nil)
     }
 }

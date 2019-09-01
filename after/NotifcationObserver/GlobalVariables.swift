@@ -8,3 +8,4 @@
 
 import Foundation
 
+let addItemNotfication = NSNotification.Name(rawValue: "addItem")
