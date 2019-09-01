@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B500C363231C1037009E4623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500C362231C1037009E4623 /* AppDelegate.swift */; };
-		B500C365231C1037009E4623 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500C364231C1037009E4623 /* FirstViewController.swift */; };
-		B500C367231C1037009E4623 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500C366231C1037009E4623 /* SecondViewController.swift */; };
+		B500C365231C1037009E4623 /* FoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500C364231C1037009E4623 /* FoodController.swift */; };
+		B500C367231C1037009E4623 /* SodaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500C366231C1037009E4623 /* SodaController.swift */; };
 		B500C36A231C1037009E4623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B500C368231C1037009E4623 /* Main.storyboard */; };
 		B500C36C231C1039009E4623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B500C36B231C1039009E4623 /* Assets.xcassets */; };
 		B500C36F231C1039009E4623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B500C36D231C1039009E4623 /* LaunchScreen.storyboard */; };
+		B500C378231C5A1D009E4623 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500C377231C5A1D009E4623 /* GlobalVariables.swift */; };
+		B500C37A231C5A72009E4623 /* MyCartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500C379231C5A72009E4623 /* MyCartController.swift */; };
+		B500C37C231C5C08009E4623 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500C37B231C5C08009E4623 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B500C35F231C1037009E4623 /* NotifcationObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotifcationObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B500C362231C1037009E4623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B500C364231C1037009E4623 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B500C366231C1037009E4623 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B500C364231C1037009E4623 /* FoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodController.swift; sourceTree = "<group>"; };
+		B500C366231C1037009E4623 /* SodaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaController.swift; sourceTree = "<group>"; };
 		B500C369231C1037009E4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B500C36B231C1039009E4623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B500C36E231C1039009E4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B500C370231C1039009E4623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B500C377231C5A1D009E4623 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		B500C379231C5A72009E4623 /* MyCartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartController.swift; sourceTree = "<group>"; };
+		B500C37B231C5C08009E4623 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		B500C361231C1037009E4623 /* NotifcationObserver */ = {
 			isa = PBXGroup;
 			children = (
+				B500C376231C59EA009E4623 /* ViewControllers */,
 				B500C362231C1037009E4623 /* AppDelegate.swift */,
-				B500C364231C1037009E4623 /* FirstViewController.swift */,
-				B500C366231C1037009E4623 /* SecondViewController.swift */,
+				B500C377231C5A1D009E4623 /* GlobalVariables.swift */,
 				B500C368231C1037009E4623 /* Main.storyboard */,
 				B500C36B231C1039009E4623 /* Assets.xcassets */,
 				B500C36D231C1039009E4623 /* LaunchScreen.storyboard */,
 				B500C370231C1039009E4623 /* Info.plist */,
 			);
 			path = NotifcationObserver;
+			sourceTree = "<group>";
+		};
+		B500C376231C59EA009E4623 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B500C37B231C5C08009E4623 /* TabBarController.swift */,
+				B500C379231C5A72009E4623 /* MyCartController.swift */,
+				B500C364231C1037009E4623 /* FoodController.swift */,
+				B500C366231C1037009E4623 /* SodaController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B500C367231C1037009E4623 /* SecondViewController.swift in Sources */,
+				B500C37C231C5C08009E4623 /* TabBarController.swift in Sources */,
+				B500C367231C1037009E4623 /* SodaController.swift in Sources */,
+				B500C37A231C5A72009E4623 /* MyCartController.swift in Sources */,
 				B500C363231C1037009E4623 /* AppDelegate.swift in Sources */,
-				B500C365231C1037009E4623 /* FirstViewController.swift in Sources */,
+				B500C378231C5A1D009E4623 /* GlobalVariables.swift in Sources */,
+				B500C365231C1037009E4623 /* FoodController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

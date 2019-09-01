@@ -8,13 +8,12 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FoodController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    @IBAction func addImaginaryFood(_ sender: UIButton) {
+    }
 }
-
